@@ -11,10 +11,11 @@ const navigation = (props) => {
                 <LinkContainer to="/">
                     <Navbar.Brand>Programming Guides</Navbar.Brand>
                 </LinkContainer>
-                <Navbar.Collapse id="navbar-nav" className="justify-content-end">
-                   <Nav>
-                       <NavItems/>
-                   </Nav>
+                <Navbar.Toggle aria-controls="main-navbar-nav"/>
+                <Navbar.Collapse id="main-navbar-nav">
+                    <Nav>
+                        <NavItems/>
+                    </Nav>
                 </Navbar.Collapse>
             </Navbar>
         </React.Fragment>
