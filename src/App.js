@@ -6,6 +6,7 @@ import './App.css';
 import Layout from './hoc/Layout/Layout';
 import HomeBanner from './components/HomeBanner/HomeBanner';
 import HomePage from './containers/HomePage/HomePage';
+import Git from './pages/git/Git';
 
 function App() {
     return (
@@ -18,7 +19,8 @@ function App() {
                     <Row>
                         <Col>
                             <Switch>
-                                <Route path="/" exact component={HomePage}/>
+                                <Route path="/git" component={Git}/>
+                                <Route path="/" component={HomePage}/>
                             </Switch>
                         </Col>
                     </Row>
