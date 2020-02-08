@@ -376,6 +376,15 @@ index 85722fd..c21df61 100644
             <p>
                 This will give me the same output as before.
             </p>
+            <h2>Adding Multiple Files at Once</h2>
+            <p>
+                As programmers, chances are we are going to be working on several files at a time. Adding each file we
+                edit to our staging area one at a time can be very tedious. We can use a simple trick to add all the
+                files that we have modified to our staging area at once. We are going to be using the fact that when
+                we give a directory to the <code>git add</code> command, all the files in that directory will be added.
+                This is recursive, so all files in subdirectories will also be added. I am going to write some simple
+                C code to show this.
+            </p>
         </React.Fragment>
     );
 };
