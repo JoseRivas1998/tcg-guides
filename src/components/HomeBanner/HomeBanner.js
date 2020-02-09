@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 
-import background from '../../assets/img/vintage-wallpaper.png';
+import background from '../../assets/media/vintage-wallpaper.png';
 import classes from './HomerBanner.module.css';
 
 const homeBanner = (props) => {
