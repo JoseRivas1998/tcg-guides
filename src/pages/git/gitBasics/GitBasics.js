@@ -3,6 +3,7 @@ import {Row, Col, Image} from 'react-bootstrap';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFilePdf} from '@fortawesome/free-solid-svg-icons';
 
+import * as config from '../../../config';
 import gitworkshop from '../../../assets/media/pages/git/basics/gitworkshop.png';
 import diagram from '../../../assets/media/pages/git/basics/diagram.png';
 import github1 from '../../../assets/media/pages/git/basics/github-1.png';
@@ -12,6 +13,7 @@ import github4 from '../../../assets/media/pages/git/basics/github-4.png';
 import pagepdf from '../../../assets/media/pages/git/basics/git-basics.pdf';
 
 const gitBasics = (props) => {
+    document.title = "Git Basics | " + config.PAGE_TITLE;
     return (
         <React.Fragment>
             <h1>Git Basics</h1>

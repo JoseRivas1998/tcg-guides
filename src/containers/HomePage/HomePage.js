@@ -1,7 +1,10 @@
 import React, {Component} from 'react';
 
+import * as config from '../../config';
+
 class HomePage extends Component {
     render() {
+        document.title = config.PAGE_TITLE;
         return (
             <React.Fragment>
                 <h2>Welcome to my programming Guides!</h2>
